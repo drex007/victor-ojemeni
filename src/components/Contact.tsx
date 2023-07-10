@@ -1,6 +1,3 @@
-import React, { useRef } from 'react'
-
-import { BsArrowUpRight } from 'react-icons/bs'
 
 import { motion } from 'framer-motion'
 
@@ -11,7 +8,7 @@ import emailjs from 'emailjs-com'
 
 
 const Contact = () => {
-  const form = useRef();
+ 
 
   const sendEmail = (e: any) => {
     e.preventDefault();

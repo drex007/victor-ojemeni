@@ -1,11 +1,3 @@
-import React from 'react'
-
-import { BsArrowUpRight } from 'react-icons/bs'
-
-import { motion } from 'framer-motion'
-
-import fadeIn from '../Variant'
-
 
 import trofira from '../assets/trofira.png'
 import flutter from '../assets/flutter.png'

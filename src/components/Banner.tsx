@@ -1,4 +1,3 @@
-import React from 'react'
 import { FaGithub, FaLinkedinIn, FaTwitter } from 'react-icons/fa'
 // Type animation
 import { TypeAnimation } from 'react-type-animation'
