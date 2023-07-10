@@ -18,14 +18,12 @@ const Nav = () => {
             <BsClipboardData />
           </Link>
           <Link activeClass="active" smooth={true} spy={true} to="work" className="cursor-pointer w-[60px] h-[60px] flex justify-center items-center">
-            <BsBriefcase/>
+            <BsBriefcase />
           </Link>
           <Link activeClass="active" smooth={true} spy={true} to="contact" className="cursor-pointer w-[60px] h-[60px] flex justify-center items-center">
-            <BsChatSquareText/>
+            <BsChatSquareText />
           </Link>
-          {/* <Link>
-            <BiHomeAlt />
-          </Link> */}
+
         </div>
 
       </div>
