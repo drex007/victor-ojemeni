@@ -1,6 +1,4 @@
-import React from 'react'
-//motion
-import { motion } from 'framer-motion'
+
 //countup
 import CountUp from 'react-countup'
 
@@ -8,7 +6,6 @@ import CountUp from 'react-countup'
 
 import { useInView } from 'react-intersection-observer'
 
-import fadeIn from '../Variant'
 import { Link } from 'react-scroll'
 
 const About = () => {

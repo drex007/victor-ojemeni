@@ -1,4 +1,3 @@
-import React from 'react'
 
 const fadeIn = (direction:any, delay:any) => {
     return {
