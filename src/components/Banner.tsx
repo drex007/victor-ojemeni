@@ -45,7 +45,7 @@ const Banner = () => {
                             viewport={{ once: false, amount: 0.7 }}
 
                             className='my-2 space-x-4'>
-                            <a href="https://drive.google.com/file/d/1MUGdv1j-XbVIuW7QQ7gnh7gXrDR7LVcd/view?usp=drivesdk"><button className='btn btn-lg'>Link to resume </button></a>
+                            <a href="https://drive.google.com/file/d/1KxJe-oJZnICyxgbVFRNYBYIGszf2brAo/view?usp=drivesdk"><button className='btn btn-lg'>Link to resume </button></a>
                             <a href="" className='text-gradient btn-link'>My Portfolio</a>
                         </motion.div>
                         {/* socials */}
