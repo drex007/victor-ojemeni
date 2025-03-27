@@ -7,7 +7,8 @@ import { TypeAnimation } from 'react-type-animation'
 import { motion } from 'framer-motion'
 
 import fadeIn from '../Variant'
-import image from '../assets/myimage.png'
+import { profileImage } from '../assets'
+
 
 const Banner = () => {
     return (
@@ -68,7 +69,7 @@ const Banner = () => {
                         whileInView={'show'}
                         viewport={{ once: false, amount: 0.7 }}
                         className='hidden lg:flex flex-1 max-w-[320px] lg:max-w-[482px]'>
-                        <img src={image} alt="" className='w-[250px] h-[250px] lg:h-[400px] lg:w-[400px] rounded-full ' />
+                        <img src={profileImage} alt="" className='w-[250px] h-[250px] lg:h-[400px] lg:w-[400px] rounded-full ' />
                     </motion.div>
                 </div>
 

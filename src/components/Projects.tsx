@@ -15,18 +15,18 @@ const Projects = () => {
             className='grid gap-y-2 lg:flex lg:space-x-2 justify-center'>
                 <div className="">
                     <p className="italic text-sm">Cowriter</p>
-                    <img src={cowriterImage} alt="" className=" lg:max-w-[300px] max-w-sm rounded-md" />
+                    <img src={cowriterImage} alt="" className=" lg:max-w-sm max-w-sm rounded-md" />
 
                 </div>
                 <div className="">
                 <p className="italic text-sm">DetectAI</p>
-                    <img src={detectAIImage} alt="" className=" lg:max-w-[300px] max-w-sm rounded-md" />
+                    <img src={detectAIImage} alt="" className=" lg:max-w-sm max-w-sm rounded-md" />
 
                 </div>
 
                 <div className="">
                 <p className="italic text-sm">Askyourpdf</p>
-                    <img src={ayfImage} alt="" className=" lg:max-w-[300px] max-w-sm rounded-md" />
+                    <img src={ayfImage} alt="" className=" lg:max-w-sm max-w-sm rounded-md" />
 
                 </div>
 
@@ -41,18 +41,18 @@ const Projects = () => {
             className='grid gap-y-2 lg:flex lg:space-x-2 justify-center my-2'>
                 <div className="">
                 <p className="italic text-sm">Decillon</p>
-                    <img src={decillon} alt="" className=" lg:max-w-[300px] max-w-sm rounded-md" />
+                    <img src={decillon} alt="" className=" lg:max-w-sm max-w-sm rounded-md" />
 
                 </div>
                 <div className="">
                 <p className="italic text-sm">Fairlauncher</p>
-                    <img src={fairlauncher} alt="" className=" lg:max-w-[300px] max-w-sm rounded-md" />
+                    <img src={fairlauncher} alt="" className=" lg:max-w-sm max-w-sm rounded-md hover:cursor-pointer"  />
 
                 </div>
 
                 <div className="">
                 <p className="italic text-sm">Trofira</p>
-                    <img src={trof} alt="" className=" lg:max-w-[300px] max-w-sm rounded-md" />
+                    <img src={trof} alt="" className=" lg:max-w-sm max-w-sm rounded-md" />
 
                 </div>
 

@@ -32,8 +32,6 @@ className='lg:px-0 px-4 lg:flex lg:justify-center sm:space-y-4 lg:space-x-4 mx-a
             <div className='my-3'> ☑️ Built and contributed to the development of 3+ projects</div>
             <div className='my-3'> ☑️ Designed and implemented robust Stripe payment integration supporting both registered and unregistered users, expanding the platform's monetization capabilities</div>
             <div className='my-3'> ☑️ Ensured secure, scalable, and user-friendly payment flows that enhanced overall customer experience</div>
-            <div className='my-3'> ☑️ Authored comprehensive technical documentation, creating clear architectural guidelines and service specifications</div>
-            <div className='my-3'> ☑️ Established documentation standards that improved knowledge transfer and onboarding processes for new team members</div>
           
         </div>
 
@@ -80,8 +78,6 @@ className='lg:px-0 px-4 lg:flex lg:justify-center sm:space-y-4 lg:space-x-4 mx-a
             <div className='my-3'> ☑️ Built and contributed to the development of 3+ projects</div>
             <div className='my-3'> ☑️ Designed and implemented robust Stripe payment integration supporting both registered and unregistered users, expanding the platform's monetization capabilities</div>
             <div className='my-3'> ☑️ Ensured secure, scalable, and user-friendly payment flows that enhanced overall customer experience</div>
-            <div className='my-3'> ☑️ Authored comprehensive technical documentation, creating clear architectural guidelines and service specifications</div>
-            <div className='my-3'> ☑️ Established documentation standards that improved knowledge transfer and onboarding processes for new team members</div>
 
         </div>
 
@@ -98,10 +94,7 @@ className='lg:px-0 px-4 lg:flex lg:justify-center sm:space-y-4 lg:space-x-4 mx-a
             <div className='my-3'> ☑️ Implemented strategic caching mechanism for currency rates API</div>
             <div className='my-3'> ☑️ Reduced operational costs by minimizing unnecessary API calls</div>
             <div className='my-3'> ☑️ Developed a responsive, intuitive UI and comprehensive Admin Dashboard for crypto swap management</div>
-            <div className='my-3'> ☑️ Created seamless user interfaces that align with design team's vision</div>
-            <div className='my-3'> ☑️ Collaborated closely with UI/UX designers to ensure precise flow implementation</div>
-            <div className='my-3'> ☑️ Engineered a Telegram Bot integration for real-time transaction monitoring</div>
-            <div className='my-3'> ☑️ Developed robust webhook mechanisms for instant notifications</div>
+  
           
 
         </div>
@@ -125,10 +118,7 @@ className='lg:px-0 px-4 lg:flex lg:justify-center sm:space-y-4 lg:space-x-4 mx-a
             <div className='my-3'> ☑️ Collaborated seamlessly with frontend teams to bridge technical gaps and ensure cohesive product implementation</div>
             <div className='my-3'> ☑️ Built and contributed to the development of 3+ projects</div>
             <div className='my-3'> ☑️ Designed and implemented robust Stripe payment integration supporting both registered and unregistered users, expanding the platform's monetization capabilities</div>
-            <div className='my-3'> ☑️ Ensured secure, scalable, and user-friendly payment flows that enhanced overall customer experience</div>
-            <div className='my-3'> ☑️ Authored comprehensive technical documentation, creating clear architectural guidelines and service specifications</div>
-            <div className='my-3'> ☑️ Established documentation standards that improved knowledge transfer and onboarding processes for new team members</div>
-          
+    
         </div>
 
 
@@ -141,10 +131,7 @@ className='lg:px-0 px-4 lg:flex lg:justify-center sm:space-y-4 lg:space-x-4 mx-a
             <div className='my-3'> ☑️ Cached currency rates api to reduce cost </div>
             <div className='my-3'> ☑️ Designed efficient, normalized database schema to streamline complex querying</div>
             <div className='my-3'> ☑️ Integerated Telegram Bot, to alert admin when transactions are registered</div>
-            <div className='my-3'> ☑️ Implemented strategic caching mechanism for currency rates API</div>
-            <div className='my-3'> ☑️ Reduced operational costs by minimizing unnecessary API calls</div>
-            <div className='my-3'> ☑️ Developed a responsive, intuitive UI and comprehensive Admin Dashboard for crypto swap management</div>
-            <div className='my-3'> ☑️ Created seamless user interfaces that align with design team's vision</div>          
+            <div className='my-3'> ☑️ Implemented strategic caching mechanism for currency rates API</div>         
 
         </div>
 </motion.div>
