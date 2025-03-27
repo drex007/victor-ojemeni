@@ -22,10 +22,10 @@ const Banner = () => {
                             viewport={{ once: false, amount: 0.7 }}
 
                             className='mb-6 text-[30px] lg:text-[50px] font-secondary font-semibold uppercase leading-[1]'>
-                            <span className='mr-4 text-black'>I am a</span>
-                            < TypeAnimation sequence={['Fullstack Developer', 2000, 'Blockchain Engineer', 2000]} speed={50}
-                                className='text-black' wrapper='span' repeat={Infinity}
-                            />
+                            <span className='mr-4 text-white'>I am a                             < TypeAnimation sequence={['Fullstack Developer', 2000, 'Blockchain Engineer', 2000]} speed={50}
+                                className='text-white' wrapper='span' repeat={Infinity}
+                            />🚀🚀🚀</span>
+
                         </motion.div>
                         <motion.p
 
@@ -33,7 +33,7 @@ const Banner = () => {
                             initial="hidden"
                             whileInView={'show'}
                             viewport={{ once: false, amount: 0.7 }}
-                            className='text-black'
+                            className='text-white'
                         >
                             As a highly experienced full-stack developer with over three years of expertise, I bring a comprehensive skill set that spans both front-end and back-end development.
                             I specialize in crafting dynamic and engaging user interfaces using cutting-edge frameworks and technologies, ensuring an exceptional user experience.
@@ -55,7 +55,7 @@ const Banner = () => {
                                 initial="hidden"
                                 whileInView={'show'}
                                 viewport={{ once: false, amount: 0.7 }}
-                                className='flex text-[20px] gap-x-6 max-w-max mx-auto lg:max-w-[450px] mt-4 bg-black w-[200px] rounded-md justify-center py-4 px-4'>
+                                className='flex text-[20px] gap-x-6 max-w-max mx-auto lg:max-w-[450px] mt-4 bg-black w-[200px] rounded-md justify-center py-4 px-4 border border-white'>
                                 <a href="https://github.com/drex007"><FaGithub /></a>
                                 <a href="https://www.linkedin.com/in/victor-ojemeni-911bb61b4"><FaLinkedinIn /></a>
                                 <a href="https://twitter.com/viktor_0x"><FaTwitter /></a>

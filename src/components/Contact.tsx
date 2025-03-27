@@ -35,9 +35,9 @@ const Contact = () => {
         <div className='flex flex-col lg:flex-row'>
           <div className='flex-1'>
             <div>
-              <h4 className='text-2xl uppercase my-2 text-black'>Get in touch</h4>
-              <h2 className='text-[45px] lg:text-[40px] leading-none mb-12 text-black '>Let's work together</h2>
-              <div className='text-black'>
+              <h4 className='text-2xl uppercase my-2 text-white'>Get in touch</h4>
+              <h2 className='text-[45px] lg:text-[40px] leading-none mb-12 text-white '>Let's work together</h2>
+              <div className='text-white'>
                 <div className='flex space-x-2 items-center'>
                   <BsTelephoneFill />
                   <p>+2348140118340</p>
@@ -51,14 +51,14 @@ const Contact = () => {
               </div>
             </div>
           </div>
-          <form onSubmit={sendEmail} className='flex-1 border rounded-2xl text-black flex flex-col gap-y-6 p-6 pb-24 border-black'>
-            <input type="text" name='subject' className="bg-transparent py-3  border-b w-full outline-none placeholder:text-black focus:border-accent border-black
+          <form onSubmit={sendEmail} className='flex-1 border rounded-2xl text-white flex flex-col gap-y-6 p-6 pb-24 border-white'>
+            <input type="text" name='subject' className="bg-transparent py-3  border-b w-full outline-none placeholder:text-white focus:border-accent border-white
           transition-all" placeholder='Subject' />
 
-            <input type="text" name='email' className="bg-transparent text-black py-3 border-b w-full outline-none placeholder:text-black focus:border-accent border-black
+            <input type="text" name='email' className="bg-transparent text-white py-3 border-b w-full outline-none placeholder:text-white focus:border-accent border-white
           transition-all" placeholder='Your email' />
 
-            <textarea name="message" className="bg-transparent py-12 border-b w-full outline-none placeholder:text-black focus:border-accent border-black
+            <textarea name="message" className="bg-transparent py-12 border-b w-full outline-none placeholder:text-white focus:border-accent border-black
           transition-all resize-none mb-12" placeholder='Your message'> </textarea>
             <button type='submit' className='btn btn-lg'>Send a message</button>
 

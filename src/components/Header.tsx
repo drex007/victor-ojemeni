@@ -13,7 +13,7 @@ const Header = () => {
                         // whileInView={'show'}
                         // viewport={{ once: false, amount: 0.7 }}
 
-                        className='text-black font-bold leading-[2] text-[16px] lg:text-[30px]'>VICTOR <span>OJEMENI</span></h1>
+                        className='text-white font-bold leading-[2] text-[16px] lg:text-[30px]'>VICTOR <span>OJEMENI</span></h1>
                    <Link smooth={true} spy={true} to="contact" > <button className='btn btn-sm'>Work with me</button></Link>
                 </div>
             </div>
