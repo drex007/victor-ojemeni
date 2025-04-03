@@ -15,7 +15,7 @@ const Projects = () => {
             className='grid gap-y-2 lg:flex lg:space-x-2 justify-center'>
                 <div className="">
                     <p className="italic text-sm">Cowriter</p>
-                    <img src={cowriterImage} alt="" className=" lg:max-w-sm max-w-[200px]rounded-md  hover:cursor-pointer" 
+                    <img src={cowriterImage} alt="" className=" lg:max-w-sm max-w-[300px] rounded-md  hover:cursor-pointer" 
                     onClick={()=> {
                         window.open("https://cowriter.ai")
                     }}
@@ -24,7 +24,7 @@ const Projects = () => {
                 </div>
                 <div className="">
                 <p className="italic text-sm">DetectAI</p>
-                    <img src={detectAIImage} alt="" className=" lg:max-w-sm max-w-[200px] rounded-md  hover:cursor-pointer" onClick={()=> {
+                    <img src={detectAIImage} alt="" className=" lg:max-w-sm max-w-[300px] rounded-md  hover:cursor-pointer" onClick={()=> {
                         window.open("https://detect.ai")
                     }}/>
 
@@ -32,7 +32,7 @@ const Projects = () => {
 
                 <div className="">
                 <p className="italic text-sm">Askyourpdf</p>
-                    <img src={ayfImage} alt="" className=" lg:max-w-sm max-w-[200px] rounded-md  hover:cursor-pointer" onClick={()=> {
+                    <img src={ayfImage} alt="" className=" lg:max-w-sm max-w-[300px] rounded-md  hover:cursor-pointer" onClick={()=> {
                         window.open("https://askyourpdf.com")
                     }} />
 
@@ -49,14 +49,14 @@ const Projects = () => {
             className='grid gap-y-2 lg:flex lg:space-x-2 justify-center my-2'>
                 <div className="">
                 <p className="italic text-sm">Decillon</p>
-                    <img src={decillon} alt="" className=" lg:max-w-sm max-w-[200px] rounded-md  hover:cursor-pointer"  onClick={()=> {
+                    <img src={decillon} alt="" className=" lg:max-w-sm max-w-[300px] rounded-md  hover:cursor-pointer"  onClick={()=> {
                         window.open("https://decillon.xyz")
                     }}/>
 
                 </div>
                 <div className="">
                 <p className="italic text-sm">Fairlauncher</p>
-                    <img src={fairlauncher} alt="" className=" lg:max-w-sm max-w-[200px]rounded-md hover:cursor-pointer" 
+                    <img src={fairlauncher} alt="" className=" lg:max-w-sm max-w-[300px] rounded-md hover:cursor-pointer" 
                     onClick={()=> {
                         window.open("https://fairlauncher-ui.vercel.app")
                     }}
