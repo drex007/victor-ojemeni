@@ -36,14 +36,14 @@ const Contact = () => {
           <div className='flex-1'>
             <div>
               <h4 className='text-2xl uppercase my-2 text-white'>Get in touch</h4>
-              <h2 className='text-[45px] lg:text-[40px] leading-none mb-12 text-white '>Let's work together</h2>
-              <div className='text-white'>
+              <h2 className='text-[35px] lg:text-[40px] leading-none mb-12 text-white'>Let's work together</h2>
+              <div className='text-white text-sm'>
                 <div className='flex space-x-2 items-center'>
                   <BsTelephoneFill />
                   <p>+2348140118340</p>
                 </div>
 
-                <div className='flex space-x-2 items-center'>
+                <div className='flex space-x-2 items-center my-2 text-sm'>
                   <MdEmail />
                   <p>victorojemeni@gmail.com || vykeoj@gmail.com</p>
                 </div>
