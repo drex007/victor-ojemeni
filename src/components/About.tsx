@@ -21,7 +21,7 @@ const About = () => {
           <div className='flex-1'>
             <h2 className='h2 text-white'>About me</h2>
             <h3 className='h3 mb-4 text-white'>I am a freelancer with 4  years of working professional experience</h3>
-            <p className='text-white'>
+            <p className='text-white text-sm lg:text-lg'>
               I have built and contributed to web2 and web3 solutions  averaging over 2million users. I have worked with like minds to create products with good user experience and factoring in  security as our top most priority.
               With my proficiency in building robust server-side applications and APIs, I seamlessly integrate the front-end and back-end components to create cohesive and scalable solutions.
 

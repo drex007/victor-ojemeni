@@ -34,7 +34,7 @@ const Banner = () => {
                             initial="hidden"
                             whileInView={'show'}
                             viewport={{ once: false, amount: 0.7 }}
-                            className='text-white'
+                            className='text-white text-sm lg:text-lg'
                         >
                             As a highly experienced full-stack developer with over three years of expertise, I bring a comprehensive skill set that spans both front-end and back-end development.
                             I specialize in crafting dynamic and engaging user interfaces using cutting-edge frameworks and technologies, ensuring an exceptional user experience.
