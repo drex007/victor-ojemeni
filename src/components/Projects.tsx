@@ -47,14 +47,14 @@ const Projects = () => {
                    viewport={{ once: false, amount: 0.4 }}
 
             className='grid gap-y-2 lg:flex lg:space-x-2 justify-center my-2 px-4  lg:px-0'>
-                <div className="">
+                <div className="px-4 lg:px-0">
                 <p className="italic text-sm">Decillon</p>
                     <img src={decillon} alt="" className=" lg:max-w-sm max-w-sm rounded-md  hover:cursor-pointer"  onClick={()=> {
                         window.open("https://decillon.xyz")
                     }}/>
 
                 </div>
-                <div className="">
+                <div className="px-4 lg:px-0">
                 <p className="italic text-sm">Fairlauncher</p>
                     <img src={fairlauncher} alt="" className=" lg:max-w-sm max-w-sm rounded-md hover:cursor-pointer" 
                     onClick={()=> {
@@ -64,7 +64,7 @@ const Projects = () => {
 
                 </div>
 
-                <div className="">
+                <div className="px-4 lg:px-0">
                 <p className="italic text-sm">Trofira</p>
                     <img src={trof} alt="" className=" lg:max-w-sm max-w-sm rounded-md  hover:cursor-pointer" onClick={()=> {
                         window.open("https://trofira.africa")
