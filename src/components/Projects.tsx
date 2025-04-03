@@ -4,7 +4,7 @@ import fadeIn from "../Variant"
 
 const Projects = () => {
     return (
-        <div className='mx-auto' id='work'>
+        <div className='mx-auto px-4 lg:px-0' id='work'>
             <h1 className='flex justify-center my-10 text-[20px] lg:text-[30px] uppercase tracking-[10px] lg:tracking-[30px] text-white'>Projects</h1>
             <motion.div 
             
@@ -12,7 +12,7 @@ const Projects = () => {
             initial="hidden"
             whileInView={'show'}
             viewport={{ once: false, amount: 0.4 }}
-            className='grid gap-y-2 lg:flex lg:space-x-2 justify-center px-4  lg:px-0'>
+            className='grid gap-y-2 lg:flex lg:space-x-2 justify-center'>
                 <div className="">
                     <p className="italic text-sm">Cowriter</p>
                     <img src={cowriterImage} alt="" className=" lg:max-w-sm max-w-sm rounded-md  hover:cursor-pointer" 
@@ -46,15 +46,15 @@ const Projects = () => {
                    whileInView={'show'}
                    viewport={{ once: false, amount: 0.4 }}
 
-            className='grid gap-y-2 lg:flex lg:space-x-2 justify-center my-2 px-4  lg:px-0'>
-                <div className="px-4 lg:px-0">
+            className='grid gap-y-2 lg:flex lg:space-x-2 justify-center my-2'>
+                <div className="">
                 <p className="italic text-sm">Decillon</p>
                     <img src={decillon} alt="" className=" lg:max-w-sm max-w-sm rounded-md  hover:cursor-pointer"  onClick={()=> {
                         window.open("https://decillon.xyz")
                     }}/>
 
                 </div>
-                <div className="px-4 lg:px-0">
+                <div className="">
                 <p className="italic text-sm">Fairlauncher</p>
                     <img src={fairlauncher} alt="" className=" lg:max-w-sm max-w-sm rounded-md hover:cursor-pointer" 
                     onClick={()=> {
@@ -64,7 +64,7 @@ const Projects = () => {
 
                 </div>
 
-                <div className="px-4 lg:px-0">
+                <div className="">
                 <p className="italic text-sm">Trofira</p>
                     <img src={trof} alt="" className=" lg:max-w-sm max-w-sm rounded-md  hover:cursor-pointer" onClick={()=> {
                         window.open("https://trofira.africa")
