@@ -12,7 +12,7 @@ const Projects = () => {
             initial="hidden"
             whileInView={'show'}
             viewport={{ once: false, amount: 0.4 }}
-            className='grid gap-y-2 lg:flex lg:space-x-2 justify-center'>
+            className='grid gap-y-2 lg:flex lg:space-x-2 justify-center px-4  lg:px-0'>
                 <div className="">
                     <p className="italic text-sm">Cowriter</p>
                     <img src={cowriterImage} alt="" className=" lg:max-w-sm max-w-sm rounded-md  hover:cursor-pointer" 
@@ -46,7 +46,7 @@ const Projects = () => {
                    whileInView={'show'}
                    viewport={{ once: false, amount: 0.4 }}
 
-            className='grid gap-y-2 lg:flex lg:space-x-2 justify-center my-2'>
+            className='grid gap-y-2 lg:flex lg:space-x-2 justify-center my-2 px-4  lg:px-0'>
                 <div className="">
                 <p className="italic text-sm">Decillon</p>
                     <img src={decillon} alt="" className=" lg:max-w-sm max-w-sm rounded-md  hover:cursor-pointer"  onClick={()=> {
