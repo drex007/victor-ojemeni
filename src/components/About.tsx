@@ -49,7 +49,7 @@ const About = () => {
                   {inView ? <CountUp start={0} end={7} duration={10} /> : null}+
                 </div>
                 <div className='font-primary text-sm tracking-[2px] text-white'>
-                  Tech<br />Stack/Frameworks
+                  Tech<br /><span className='text-[12px] lg:text-sm'>Stack/Frameworks</span>
                 </div>
               </div>
 
