@@ -66,7 +66,7 @@ const Projects = () => {
 
                 <div className="">
                 <p className="italic text-sm">Trofira</p>
-                    <img src={trof} alt="" className=" lg:max-w-sm max-w-[200px] rounded-md  hover:cursor-pointer" onClick={()=> {
+                    <img src={trof} alt="" className=" lg:max-w-sm max-w-[300px] rounded-md  hover:cursor-pointer" onClick={()=> {
                         window.open("https://trofira.africa")
                     }} />
 
