@@ -4,7 +4,7 @@ import fadeIn from "../Variant"
 
 const Projects = () => {
     return (
-        <div className='mx-auto px-4 lg:px-0' id='work'>
+        <div className='mx-auto px-8 lg:px-0' id='work'>
             <h1 className='flex justify-center my-10 text-[20px] lg:text-[30px] uppercase tracking-[10px] lg:tracking-[30px] text-white'>Projects</h1>
             <motion.div 
             
