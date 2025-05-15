@@ -22,7 +22,6 @@ const fadeIn = (direction:any, delay:any) => {
 
 export default fadeIn
 
-
 // export const fadeIn = (direction, delay) => {
 //     return {
 //         hidden: {
